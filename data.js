@@ -83,7 +83,7 @@ const SITE_DATA = {
 
   terminalLines: [
     { type: "cmd", text: "whoami" },
-    { type: "out", text: "shahab_qamar — cybersecurity student, red team focused" },
+    { type: "out", text: "zerox" },
     { type: "cmd", text: "cat mission.txt" },
     { type: "out", text: "VAPT, web app security, and digital forensics.\nRed team by focus, blue team by curiosity." },
     { type: "cmd", text: "./init_dossier.sh" },
