@@ -1,5 +1,3 @@
-
-
 const SITE_DATA = {
 
   // ---- CERTIFICATIONS ----
