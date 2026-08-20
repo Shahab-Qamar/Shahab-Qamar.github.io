@@ -1,10 +1,4 @@
-/*
-  ===========================================================
-  SITE CONTENT — edit this file to update the site.
-  No HTML/CSS knowledge needed for day-to-day updates.
-  Just add/edit/remove objects in the arrays below and push.
-  ===========================================================
-*/
+
 
 const SITE_DATA = {
 
@@ -21,11 +15,6 @@ const SITE_DATA = {
     { id: "CERT-08", name: "C++ & Python Essentials", issuer: "Cisco Networking Academy", year: "2024", status: "verified" }
   ],
 
-  // ---- FINDINGS / RESEARCH / COMPETITIVE RESULTS ----
-  // category is used to auto-generate the filter buttons above the grid.
-  // Use short lowercase keys and give them a readable label in `categoryLabels`.
-  // NOTE: no full writeups published yet — these are real results from the CV.
-  // Swap in full writeup links as you publish them.
   findings: [
     {
       id: "FND-01", year: "2026", category: "bugbounty",
@@ -92,8 +81,6 @@ const SITE_DATA = {
     }
   ],
 
-  // ---- TERMINAL SCRIPT (hero widget) ----
-  // Each line types out in sequence. type: "cmd" | "out" | "ok"
   terminalLines: [
     { type: "cmd", text: "whoami" },
     { type: "out", text: "shahab_qamar — cybersecurity student, red team focused" },
