@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shahab Qamar — Cybersecurity | VAPT & Web App Security</title>
+<meta name="description" content="Muhammad Shahab Qamar — Cybersecurity student specializing in Vulnerability Assessment & Penetration Testing, web application security, and digital forensics. Red team focused, SOC-curious.">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="nav-brand">
+      <span>S. QAMAR</span>
+      <span class="tag">ON AIR</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#certifications">Certs</a>
+      <a href="#findings">Findings</a>
+      <a href="#tools">Tools</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle mono" aria-label="Toggle menu" id="navToggle">≡</button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <div class="hero-left">
+      <div class="eyebrow"><span class="dot"></span> SIGNAL ACTIVE // 145.500 MHz</div>
+      <h1>Shahab<br>Qamar</h1>
+      <div class="role">Cybersecurity Student — VAPT &amp; Web Application Security</div>
+      <p class="tagline">Final-year cybersecurity student focused on Vulnerability Assessment &amp; Penetration Testing, web application security, and digital forensics — red team by focus, with a growing pull toward blue team and SOC operations. Currently deploying Wazuh/SIEM monitoring and running web app pentests at NASTP Rawalpindi.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#findings">View Findings</a>
+        <a class="btn btn-ghost" href="assets/cv.pdf" download>Download CV</a>
+        <a class="btn btn-ghost" href="#contact">Get In Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="terminal" id="terminal">
+        <div class="term-bar">
+          <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+          <span class="term-title mono">operator@shahab:~</span>
+        </div>
+        <div class="term-body mono" id="termBody" aria-live="polite"></div>
+      </div>
+      <svg class="waveform" viewBox="0 0 420 120" aria-hidden="true">
+        <polyline id="wave" points="0,60 20,60 35,20 55,100 75,10 95,110 115,60 140,60 160,35 185,85 210,60 420,60"
+          fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="dot"></span> 01 // EXECUTIVE SUMMARY</div>
+      <h2>About the operator</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-body reveal">
+        <p><strong>Final-year Cybersecurity student</strong> with hands-on experience in Vulnerability Assessment and Penetration Testing (VAPT), web application security, and digital forensics — built through coursework, internships, CTFs, and independent projects. I've shipped production-level security tools (published on GitHub) and hold certifications including <strong>Google Cybersecurity Professional</strong> and <strong>Cisco Ethical Hacker</strong>.</p>
+        <p>My focus is offensive — web app pentesting, OWASP-aligned vulnerability discovery, and adversary-style thinking — but the blue side pulls at me too. I'm currently deploying and configuring <strong>Wazuh</strong> for SIEM log monitoring and threat detection at NASTP Rawalpindi, and I like understanding both how an attack works and how it gets caught.</p>
+        <p>Active on TryHackMe and Hack The Box, with multiple CTF placements, and I'm seeking a junior cybersecurity role spanning VAPT, SOC operations, cyber threat intelligence, or digital forensics on a fast-moving security team.</p>
+      </div>
+      <div class="stack-list reveal">
+        <div class="stack-row"><span class="k">Focus</span><span class="v">VAPT, Web App Security, Digital Forensics</span></div>
+        <div class="stack-row"><span class="k">Also into</span><span class="v">SIEM / SOC — Wazuh, log monitoring, threat detection</span></div>
+        <div class="stack-row"><span class="k">Languages</span><span class="v">C++ (Advanced), Python, JavaScript, SQL, Node.js</span></div>
+        <div class="stack-row"><span class="k">Tooling</span><span class="v">Nmap, Burp Suite, Wireshark, Autopsy, Metasploit, Wazuh</span></div>
+        <div class="stack-row"><span class="k">Systems</span><span class="v">Linux &amp; Windows administration</span></div>
+        <div class="stack-row"><span class="k">Based in</span><span class="v">Islamabad, Pakistan</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section id="certifications">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="dot"></span> 02 // CREDENTIALS</div>
+      <h2>Certifications</h2>
+      <p>Edit the <code>certifications</code> array in <code>data.js</code> to update this section.</p>
+    </div>
+    <div class="cert-grid reveal" id="certGrid"></div>
+  </div>
+</section>
+
+<!-- ============ FINDINGS ============ -->
+<section id="findings">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="dot"></span> 03 // FINDINGS</div>
+      <h2>Writeups &amp; research</h2>
+      <p>Edit the <code>findings</code> array in <code>data.js</code> to add new writeups — categories and filters update automatically.</p>
+    </div>
+    <div class="filter-row reveal" id="filterRow"></div>
+    <div class="card-grid reveal" id="findGrid"></div>
+  </div>
+</section>
+
+<!-- ============ TOOLS ============ -->
+<section id="tools">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="dot"></span> 04 // CAPABILITIES</div>
+      <h2>Tools &amp; projects</h2>
+      <p>Edit the <code>tools</code> array in <code>data.js</code> to update this section.</p>
+    </div>
+    <div class="tool-grid reveal" id="toolGrid"></div>
+  </div>
+</section>
+
+<!-- ============ TIMELINE ============ -->
+<section id="timeline">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="dot"></span> 05 // ENGAGEMENT LOG</div>
+      <h2>Experience</h2>
+    </div>
+    <div class="timeline reveal" id="timelineList"></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-wrap">
+      <div class="reveal">
+        <div class="eyebrow" style="margin-bottom:18px;"><span class="dot"></span> 06 // OPEN CHANNEL</div>
+        <div class="contact-big">Open to red team roles, engagements, and collaboration.</div>
+        <p class="contact-sub">Send a message and it'll land straight in my inbox — name, email, and all.</p>
+
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" required placeholder="you@example.com">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="What's this about?"></textarea>
+          </div>
+          <input type="text" name="_gotcha" style="display:none">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <div class="form-status mono" id="formStatus"></div>
+        </form>
+      </div>
+
+      <div class="contact-links reveal">
+        <a class="contact-row" href="mailto:imshahab33@gmail.com"><span>Email</span><span>imshahab33@gmail.com</span></a>
+        <a class="contact-row" href="https://github.com/Shahab-Qamar" target="_blank" rel="noopener"><span>GitHub</span><span>/Shahab-Qamar</span></a>
+        <a class="contact-row" href="https://www.linkedin.com/in/shahab-qamar-b1624a286/" target="_blank" rel="noopener"><span>LinkedIn</span><span>/in/shahab-qamar</span></a>
+        <a class="contact-row" href="#"><span>Location</span><span>Islamabad, PK</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© 2026 MUHAMMAD SHAHAB QAMAR</span>
+    <span>SIGNAL INTERCEPT — TLP:CLEAR</span>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
