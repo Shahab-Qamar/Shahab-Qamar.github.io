@@ -2,15 +2,23 @@ const SITE_DATA = {
 
   // ---- CERTIFICATIONS ----
   // status: "verified" or "progress"
+  // file: path to the certificate PDF (opens in a new tab when the card is clicked)
   certifications: [
-    { id: "CERT-01", name: "Google Cybersecurity Professional", issuer: "Google / Coursera", year: "2025", status: "verified" },
-    { id: "CERT-02", name: "Ethical Hacker", issuer: "Cisco Networking Academy", year: "2025", status: "verified" },
-    { id: "CERT-03", name: "CCNA", issuer: "Cisco Networking Academy", year: "2025", status: "verified" },
-    { id: "CERT-04", name: "Cyber Threat Management", issuer: "Cisco Networking Academy", year: "2025", status: "verified" },
-    { id: "CERT-05", name: "Endpoint Security", issuer: "Cisco Networking Academy", year: "2025", status: "verified" },
-    { id: "CERT-06", name: "Network Support & Security", issuer: "Cisco Networking Academy", year: "2025", status: "verified" },
-    { id: "CERT-07", name: "Linux Essentials 1 & 2", issuer: "Cisco Networking Academy", year: "2024", status: "verified" },
-    { id: "CERT-08", name: "C++ & Python Essentials", issuer: "Cisco Networking Academy", year: "2024", status: "verified" }
+    { id: "CERT-01", name: "Google Cybersecurity Professional", issuer: "Google / Coursera", year: "2026", status: "verified", file: "assets/certificates/google-cybersecurity-professional.pdf" },
+    { id: "CERT-02", name: "Ethical Hacker", issuer: "Cisco Networking Academy", year: "2025", status: "verified", file: "assets/certificates/ethical-hacker.pdf" },
+    { id: "CERT-03", name: "CCNA: Introduction to Networks", issuer: "Cisco Networking Academy", year: "2024", status: "verified", file: "assets/certificates/ccna-introduction-to-networks.pdf" },
+    { id: "CERT-04", name: "Cyber Threat Management", issuer: "Cisco Networking Academy", year: "2026", status: "verified", file: "assets/certificates/cyber-threat-management.pdf" },
+    { id: "CERT-05", name: "Endpoint Security", issuer: "Cisco Networking Academy", year: "2024", status: "verified", file: "assets/certificates/endpoint-security.pdf" },
+    { id: "CERT-06", name: "Network Support and Security", issuer: "Cisco Networking Academy", year: "2025", status: "verified", file: "assets/certificates/network-support-and-security.pdf" },
+    { id: "CERT-07", name: "Network Defense", issuer: "Cisco Networking Academy", year: "2025", status: "verified", file: "assets/certificates/network-defense.pdf" },
+    { id: "CERT-08", name: "Linux Essentials", issuer: "Cisco Networking Academy", year: "2025", status: "verified", file: "assets/certificates/linux-essentials.pdf" },
+    { id: "CERT-09", name: "Introduction to Cybersecurity", issuer: "Cisco Networking Academy", year: "2024", status: "verified", file: "assets/certificates/introduction-to-cybersecurity.pdf" },
+    { id: "CERT-10", name: "Operating Systems Basics", issuer: "Cisco Networking Academy", year: "2025", status: "verified", file: "assets/certificates/operating-systems-basics.pdf" },
+    { id: "CERT-11", name: "Industrial Cybersecurity Essentials", issuer: "Cisco Networking Academy", year: "2026", status: "verified", file: "assets/certificates/industrial-cybersecurity-essentials.pdf" },
+    { id: "CERT-12", name: "Programming Essentials in C++", issuer: "Cisco Networking Academy", year: "2024", status: "verified", file: "assets/certificates/programming-essentials-cpp.pdf" },
+    { id: "CERT-13", name: "C++ Advanced", issuer: "Cisco Networking Academy", year: "2024", status: "verified", file: "assets/certificates/cpp-advanced.pdf" },
+    { id: "CERT-14", name: "Python Essentials 1", issuer: "Cisco Networking Academy", year: "2026", status: "verified", file: "assets/certificates/python-essentials-1.pdf" },
+    { id: "CERT-15", name: "Python Essentials 2", issuer: "Cisco Networking Academy", year: "2026", status: "verified", file: "assets/certificates/python-essentials-2.pdf" }
   ],
 
   findings: [
