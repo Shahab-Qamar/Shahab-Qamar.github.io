@@ -209,8 +209,15 @@ header.nav{
   background:var(--bg-panel); padding:26px 24px;
   display:flex; flex-direction:column; gap:14px;
   transition:background .2s;
+  text-decoration:none; color:inherit; cursor:default;
 }
+a.cert-card{ cursor:pointer; }
 .cert-card:hover{ background:var(--bg-panel-2); }
+.cert-view{
+  float:right; color:var(--accent); font-size:10.5px; letter-spacing:.05em;
+  opacity:0; transition:opacity .2s;
+}
+a.cert-card:hover .cert-view{ opacity:1; }
 .cert-top{ display:flex; justify-content:space-between; align-items:flex-start; }
 .cert-id{ font-family:var(--font-mono); font-size:11px; color:var(--text-faint); }
 .pill{
