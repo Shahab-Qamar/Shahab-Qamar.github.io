@@ -4,17 +4,21 @@
 
 function renderCertifications(){
   const grid = document.getElementById('certGrid');
-  grid.innerHTML = SITE_DATA.certifications.map(c => `
-    <div class="cert-card">
+  grid.innerHTML = SITE_DATA.certifications.map(c => {
+    const Tag = c.file ? 'a' : 'div';
+    const linkAttrs = c.file ? `href="${c.file}" target="_blank" rel="noopener"` : '';
+    return `
+    <${Tag} class="cert-card" ${linkAttrs}>
       <div class="cert-top">
         <span class="cert-id">${c.id}</span>
         <span class="pill ${c.status === 'verified' ? 'verified' : 'progress'}">${c.status === 'verified' ? 'VERIFIED' : 'IN PROGRESS'}</span>
       </div>
       <div class="cert-name">${c.name}</div>
       <div class="cert-issuer">${c.issuer}</div>
-      <div class="cert-year">${c.year}</div>
-    </div>
-  `).join('');
+      <div class="cert-year">${c.year}${c.file ? ' <span class="cert-view">VIEW CERTIFICATE →</span>' : ''}</div>
+    </${Tag}>
+  `;
+  }).join('');
 }
 
 function renderFindings(){
